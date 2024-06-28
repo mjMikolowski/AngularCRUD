@@ -30,7 +30,6 @@ import { RouterModule } from '@angular/router';
     NgbModule,
     ToastrModule.forRoot(),
     BrowserAnimationsModule,
-    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
