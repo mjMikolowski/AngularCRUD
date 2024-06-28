@@ -12,10 +12,10 @@ const routes: Routes = [
   { path: 'AddEmployee', component: AddEmployeeComponent },
   { path: 'EditEmployee/:employeeId', component: EditEmployeeComponent } 
 ];
- 
+  
+
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-
 export class AppRoutingModule { }
